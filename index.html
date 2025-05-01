@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HCT Integrated Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        /* App cards */
+        .app-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            height: 100%;
+            background-color: white;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .app-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .app-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #003366;
+            display: block;
+            margin-top: 20px;
+        }
+        
+        /* HCT branding colors */
+        .navbar {
+            background-color: #003366 !important;
+        }
+        
+        .btn-primary {
+            background-color: #003366;
+            border-color: #003366;
+        }
+        
+        .btn-primary:hover {
+            background-color: #004080;
+            border-color: #004080;
+        }
+        
+        h1, h2, h3, h4, h5 {
+            color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-university" style="font-size: 24px;"></i>
+                <span class="ms-2">HCT Dashboard</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <h1 class="text-center my-4">HCT Integrated Dashboard</h1>
+        <p class="text-center mb-5">Access comprehensive academic analytics tools from one central platform</p>
+        
+        <div class="row">
+            <!-- Ahmad Mohammed Dashboard -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="app-card h-100">
+                    <div class="text-center">
+                        <i class="fas fa-chart-line app-icon"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h4 class="card-title text-center">Ahmad Mohammed</h4>
+                        </div>
+                        <p class="card-text text-center">Role-based HCT Dashboard with academic analytics</p>
+                        <a href="https://github.com/H00423271/hct-dashboard-portal/tree/main/ahmed_mohammed" target="_blank" class="btn btn-primary w-100">
+                            View Dashboard
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Abdullah bin Toug Dashboard -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="app-card h-100">
+                    <div class="text-center">
+                        <i class="fas fa-university app-icon"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h4 class="card-title text-center">Abdullah bin Toug</h4>
+                        </div>
+                        <p class="card-text text-center">Campus benchmarking and performance analytics</p>
+                        <a href="https://github.com/H00423271/hct-dashboard-portal/tree/main/abdullah" target="_blank" class="btn btn-primary w-100">
+                            View Dashboard
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ahmed Yousuf Dashboard -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="app-card h-100">
+                    <div class="text-center">
+                        <i class="fas fa-graduation-cap app-icon"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h4 class="card-title text-center">Ahmed Yousuf</h4>
+                        </div>
+                        <p class="card-text text-center">Student performance and attendance tracking</p>
+                        <a href="https://github.com/H00423271/hct-dashboard-portal/tree/main/ahmed_yousuf" target="_blank" class="btn btn-primary w-100">
+                            View Dashboard
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ahmed Thamer Dashboard -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="app-card h-100">
+                    <div class="text-center">
+                        <i class="fas fa-user-edit app-icon"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h4 class="card-title text-center">Ahmed Thamer</h4>
+                        </div>
+                        <p class="card-text text-center">Student intervention and academic support system</p>
+                        <a href="https://github.com/H00423271/hct-dashboard-portal/tree/main/ahmed_thamer" target="_blank" class="btn btn-primary w-100">
+                            View Dashboard
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Obaid Al Falasi Dashboard -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="app-card h-100">
+                    <div class="text-center">
+                        <i class="fas fa-calendar-check app-icon"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h4 class="card-title text-center">Obaid Al Falasi</h4>
+                        </div>
+                        <p class="card-text text-center">Student attendance monitoring and analytics</p>
+                        <a href="https://github.com/H00423271/hct-dashboard-portal/tree/main/obaid_alfalasi" target="_blank" class="btn btn-primary w-100">
+                            View Dashboard
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">About This Dashboard</h5>
+                        <p>
+                            The Higher Colleges of Technology Dashboard provides centralized access to essential
+                            academic monitoring tools. Track student performance, identify intervention needs, and analyze
+                            campus-wide metrics from one integrated platform.
+                        </p>
+                        <hr>
+                        <p class="text-info mt-3">
+                            <strong>Instructions: </strong>
+                            To run each dashboard locally, clone this repository and navigate to the specific dashboard directory.
+                            Install the required dependencies with <code>pip install -r requirements.txt</code> and then run the appropriate Python file.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="mt-5">
+        <hr>
+        <p class="text-center">Higher Colleges of Technology Integrated Dashboard © 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
